@@ -1,0 +1,193 @@
+﻿:root {
+    --title-font: 28px;
+    --description-font: 20px;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/*=======================Layout=======================*/
+.container {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.grid {
+    display: grid;
+}
+
+.section {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    color: #763C00;
+}
+
+/*=======================Checkout=======================*/
+.checkoutForm {
+    background: linear-gradient(to bottom right, #FFABCB, #BDE0FE);
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.backButton {
+    margin-left: 100px;
+    font-size: 30px;
+    color: red;
+    font-weight: bolder;
+    background: none;
+    border: none;
+}
+
+.form_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form_details {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+.dropdownForm {
+    width: 500px;
+}
+
+.phone_section {
+    display: flex;
+    flex-direction: column;
+}
+
+.phone_input {
+    display: grid;
+    grid-template-columns: 200px auto;
+    grid-column-gap: 20px;
+}
+
+.form_title {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.form_subtitle {
+    font-size: 20px;
+}
+
+.form_title2 {
+    text-align: center;
+    font-size: 23px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.form_label {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.form_input {
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+    .form_input:focus {
+        outline-color: #047EE2;
+    }
+
+.radio_section {
+    display: flex;
+    flex-direction: column;
+}
+
+.houseType_radio {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-items: center;
+}
+
+.landedAddress {
+    display: flex;
+    flex-direction: column;
+}
+
+.apartmentAddress {
+    display: flex;
+    flex-direction: column;
+}
+
+.apartment_level {
+    grid-template-columns: auto auto;
+    grid-column-gap: 30px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.houseBtn {
+    width: 100px;
+    padding: 5px 0;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    background: #FFABCB;
+}
+
+    .houseBtn:hover {
+        background: #BDE0FE;
+    }
+
+.checkoutBtn {
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 10px;
+    border: none;
+    font-size: 24px;
+    font-weight: bolder;
+    cursor: pointer;
+    background: #FFABCB;
+    margin-top: 30px;
+}
+
+    .checkoutBtn:hover {
+        background: #BDE0FE;
+    }
+
+.align_center {
+    text-align: center;
+    font-size: 30px;
+}
+/*=======================Footer=======================*/
+
+.footer_copyright {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    text-align: center;
+    font-size: var(--description-font);
+    font-weight: bold;
+    color: white;
+    background: #000000;
+}
